@@ -1,4 +1,4 @@
-h1 OBender
+## OBender
 ruby gem -- combinations of Incoming Arrays
 
 **To use**
