@@ -3,8 +3,8 @@ class OBender
     @args = args
   end
 
-  def vasuyki
-    return @args if @args.size == 1
+  def vasyuki
+    return @args[0].map { |arg| [arg] } if @args.size == 1
     return [] if @args.size == 0
 
     @args.reduce do |acc, item|
